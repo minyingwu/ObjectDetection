@@ -1,5 +1,5 @@
 //
-//  ImageAnimatorPlayer.swift
+//  ImageAnimator.swift
 //  ObjectDetection
 //
 //  Created by Victor on 2021/6/9.
@@ -11,7 +11,7 @@
 import UIKit
 import AVFoundation
 
-class ImageAnimatorPlayer {
+class ImageAnimator {
     
     let kTimescale: Int32 = 600
     let settings: RenderSettings

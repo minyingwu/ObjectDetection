@@ -50,7 +50,7 @@ class ViewController: UIViewController {
                 if $0 {
                     var settings = RenderSettings()
                     settings.fps = Int32(self.frames.count / self.lengthSeconds)
-                    let imageAnimator = ImageAnimatorPlayer(settings: settings, images: self.frames)
+                    let imageAnimator = ImageAnimator(settings: settings, images: self.frames)
                     imageAnimator.render() {
                         self.view.showToast(text: "Video saved successfully")
                         button.isEnabled = true
