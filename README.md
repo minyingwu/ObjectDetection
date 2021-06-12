@@ -7,9 +7,8 @@ ObjectDetection is a testing CoreML iOS APP and it can be used to detect the per
 2. [FileLoader](#FileLoader)
 3. [AssetReader](#AssetReader)
 4. [Predictor](#Predictor)
-5. [VideoWrite and ImageAnimator](#VideoWrite&#32;and&#32;ImageAnimator)
-6. [ImageAnimator](#ImageAnimator)
-7. [PhotoLibrary](#PhotoLibrary)
+5. [VideoWrite and ImageAnimator](#Videowrite-and-Imageanimator)
+6. [PhotoLibrary](#PhotoLibrary)
 
 ### ViewController
 - Initialize the result image view and detected bounding boxes UI.
